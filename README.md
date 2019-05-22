@@ -15,6 +15,7 @@ Lista delle cose da fare:
   - commentare il codice
   - collegare pagine
   - Modifica ed elimina cliente (compito amministrazione)
+  - Dopo aver inserito un nuovo intervento o si rimanda il meccanico alla scelta targhe oppure si chiede una doppia conferma(es. vecchio rincoglionito clicca due volte, inserisce dunque 2 volte nel db)
  
 Pagine mancanti:
   Utenza Amministratore
