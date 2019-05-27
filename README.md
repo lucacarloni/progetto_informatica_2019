@@ -24,14 +24,16 @@ Pagine mancanti:
     - Modifica Dati Meccanico  
     - Modifica Prodotto  
     - Modifica Cliente  
-    - Cancella Cliente  
+    in arrivo Cancella Cliente
   Utenza Meccanico  
     - Modifica Dati Veicolo  
-    - Cancella Veicolo  
+    //per damiano, ce l'hai in mail
+    ✅ Cancella Veicolo 
   Utenza Cliente  
     - Visualizza macchina/e (Dati riguardanti operazioni ed interventi, e le fatture)  
     - pagina per creare username e password dato il codice fiscale  
-    
+
+//no bootstrap
 progetti futuri:  
   - bootstrap per css   
 
