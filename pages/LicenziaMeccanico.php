@@ -44,7 +44,6 @@
                     </table>
                     <?php
                     if (isset($_POST["licenzia"])) {
-                        if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                             $meccanico = $_POST["meccanico"];
                             $query = "DELETE FROM meccanico
@@ -54,7 +53,6 @@
                             $rSet = $myconn->query($query);
                             header("Refresh:5");
                         	echo "<p id=\"stampa\"> Meccanico eliminato con successo </p>";
-                        }
                     }
                     ?>
 
