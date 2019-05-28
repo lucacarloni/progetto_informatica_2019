@@ -32,7 +32,7 @@
                             <td>
                                 <select name="meccanico"><?php
                                     //Creazione select della matricola
-                                    $query = "SELECT matricola FROM meccanico;";
+                                    $query = "SELECT matricola FROM meccanico WHERE meccanico.password IS NOT NULL;";
                                     $ris = execute($myconn, $query);
                                     while ($row = $ris->fetch_assoc()) {
                                         echo "<option>" . $row["matricola"] . "</option>";
