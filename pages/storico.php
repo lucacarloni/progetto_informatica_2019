@@ -12,9 +12,9 @@
     <div class = 'navbar bgblack maxwidth' id='menu'>
         <?php
         include("utils.php");
-
-        checkUserPermissions();
+       
         session_start();
+        checkUserPermissions();
         createNavBar();
         ?>
     </div>
