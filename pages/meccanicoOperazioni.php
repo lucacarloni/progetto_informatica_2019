@@ -80,6 +80,7 @@
                         <a href=\"CollegaIntervento.php?targa=" . $targa . "\">Aggiungi Intervento</a><br>";
                         
                         echo "<a href=\"RegistraProdotto.php?targa=" . $targa . "\">Aggiungi Prodotto</a><br>";
+                        echo "<a href=\"modificaVeicolo.php?targa=" . $targa . "\">Modifica Veicolo</a><br>";
                         echo "<a href=\"Riconsegna.php?targa=" . $targa . "\">Riconsegna Veicolo</a><br>";
                     } else {
                         echo " <table>
