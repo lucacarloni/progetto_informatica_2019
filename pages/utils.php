@@ -40,6 +40,8 @@ function createNavBar() {
 
 			echo "<a href='RegistraCliente.php'> " . "Registra Cliente" . "</a>";
 			
+			echo "<a href='modificaDatiCliente.php'> ". "Modifica Cliente". "</a>";
+			
 			echo "<a href='disabilitaCliente.php'> " . "Disabilita Cliente" . "</a>";
 
 			echo "<a href='RegistraProdottoDb.php'> " . "Registra Prodotto Db" . "</a>";
