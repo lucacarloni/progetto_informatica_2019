@@ -1,6 +1,8 @@
 <?php
 
 	include("utils.php");
+	//per evitare accessi indesiderati
+	checkAdminPermissions();
 	$myconn=connect();
 	//Matricola del meccanico
 	$meccanico=$_GET["meccanico"];
