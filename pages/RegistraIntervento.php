@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/style.css"  >    
 </head>
 <body>
-  <h1 class="center bgblack header_page">Registra Meccanico nel DB</h1>
+  <h1 class="center bgblack header_page">Registra Intervento</h1>
 
   <div class = 'navbar bgblack maxwidth' id='menu'>
     <?php
