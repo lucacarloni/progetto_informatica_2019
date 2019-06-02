@@ -40,7 +40,7 @@
             <p>Inserire costo dell' intervento</p>
           </td>
           <td>
-            <input type="number" min="0.01" max="999.990" name="costo" required>
+            <input type="number" min="1" max="999.990" name="costo" required>
           </td>
         </tr>
         <tr>
@@ -48,7 +48,7 @@
             <p>Inserire tempo di lavorazione</p>
           </td>
           <td>
-            <input type="number" step="0.10" max="999.990" min="0.01" name="tempo" value="0.00" required>
+            <input type="number" step="0.10" max="999.990" min="0.1" name="tempo" value="0.00" required>
           </td>
         </tr>
       </table>
